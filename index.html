@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: gray;
+        }
+
+        .card {
+            background-color: whitesmoke;
+            max-width: 300px;
+            width: 250px;
+            height: 444px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image{
+            padding: 5px;
+            border-radius: 7px;
+        }
+        .card img {
+            background-color: lightblue;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-content {
+           
+            padding: 30px;
+            text-align: center;
+        }
+        .card-content h1{
+            
+            padding: 30px;
+        }
+
+        .card-content h2 {
+            
+            margin-top: 0;
+            color: #333;
+        }
+
+        .content {
+            
+            padding: 13px;
+
+        }
+
+        .capsules{
+           
+            padding: 10px 30px 0 16px;
+        }
+
+        .capsules span{
+            border: 1px solid gray;
+            padding: 1px 4px;
+            border-radius: 7px;
+        }
+        .button{
+            text-align: center;
+
+        }
+        .button button{
+            padding: 7px 3px;
+            border-radius: 15px;
+            color: blue;
+            margin-top: 7px;
+            font-size:12px;
+            border: none;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div>
+        <img src="card.jpeg" alt="Card Image">
+        </div>
+        <div class="capsules">
+            <span>City</span>
+            <span>Lights</span>
+        </div>
+        <div class="content">
+            <h2>Ajay</h2>
+            <p>The greatest glory in living lies not in never falling, but in rising every time we fall.</p>
+        </div>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+</html>
